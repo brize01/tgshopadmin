@@ -125,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Путь к статическим файлам
 USE_STATICFILES_DIRS = os.getenv('USE_STATICFILES_DIRS', 'False') == 'True'
